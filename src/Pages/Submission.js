@@ -89,7 +89,7 @@ const Submission = () => {
 
   if (!submission) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-blue-50">
+      <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
           <div className="text-gray-400 mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -141,7 +141,7 @@ const Submission = () => {
   };
 
   return (
-    <div className="min-h-screen bg-blue-50 py-6 px-4">
+    <div className="min-h-screen bg-white py-6 px-4">
       <div 
         className="max-w-5xl mx-auto"
         style={{ 

@@ -30,7 +30,7 @@ const ProblemDetails = () => {
   }, []);
 
   if (!problem) return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-50">
+    <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
         <div className="text-gray-400 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -52,7 +52,7 @@ const ProblemDetails = () => {
   const sample = problem.samples?.find((s) => s.isSample) || problem.samples?.[0];
 
   return (
-    <div className="min-h-screen bg-blue-50 py-6 px-4 transition-all duration-300 ease-in-out">
+    <div className="min-h-screen bg-white py-6 px-4 transition-all duration-300 ease-in-out">
       {/* Main content container */}
       <div className="max-w-4xl mx-auto" style={{ opacity: isLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}>
         

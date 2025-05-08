@@ -134,7 +134,7 @@ if __name__ == "__main__":
   const selectedLang = languages.find(lang => lang.id === language);
 
   return (
-    <div className="min-h-screen bg-blue-50 py-6 px-4">
+    <div className="min-h-screen bg-white py-6 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="bg-blue-500 rounded-lg shadow-lg mb-6 p-4 text-white">
